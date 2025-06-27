@@ -8,7 +8,71 @@
 </head>
 <body>
     <div class="bodyWrapper">
-        
+        <div class="LeftSignUp">
+            <div class="leftSignUpwrapper">
+                
+            </div>
+           
+        </div>
+        <div class="rightSignUp">
+            <div class="signUpWrapper">
+                <div class="LogoContainer">
+                    <div class="signUpLogo">
+                        <img src="../Images/Logo.png" alt="" />
+                    </div>
+                </div>
+
+               <div class="signUpInfo">
+                <div class="SignUpText">
+                    <h1>Create Account</h1>
+                    <p> Ask your questions freely? Let’s get you set up.</p>
+                </div>
+                <div class="SignUpInputBtn">
+                    <form class="SignUpInput" id="SignUpForm">
+                        <div class="inputHolder">
+                            <div class="Icon">
+                                <img src="./user.png" alt="">
+
+                            </div>
+                            <input type="text" placeholder="Name" id="userName">
+                        </div>
+                        <div class="inputHolder">
+                            <div class="Icon">
+                                <img src="./locked-computer.png" alt="">
+
+                            </div>
+                            <input type="text" placeholder="Password" id="password">
+                        </div>
+                        <div class="inputHolder">
+                            <div class="Icon">
+                                <img src="./email.png" alt="">
+
+                            </div>
+                            <input type="email" placeholder="Email" id="email">
+                        </div>
+                        <div class="inputHolder">
+                           
+                               <select name="" id="role">
+                                <option value="">Select a role</option>
+                                <option value="Student">Student</option>
+                                <option value="Teacher">Teacher</option>
+                               </select>
+                        
+                    </div>
+                    <div class="signUpBtn">
+                        <a href="./SignUp/SignUp.html"><button class="secBtn">Sign Up</button></a>
+                    </div>
+                </form>
+               <div class="SignUpdownText">
+                    <p>Already have an account? <a href="../Login/Login.html"><span>Login</span></a></p>
+               </div>
+               </div>
+            </div>
+            
+        </div>
     </div>
+    <script src="./SignUp.js">
+
+    </script>
 </body>
 </html>
