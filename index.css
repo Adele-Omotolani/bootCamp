@@ -23,6 +23,17 @@ justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
+.headerImage{
+        height: 100px;
+        width: 300px;
+        /* background-color: yellow; */
+
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+}
 .headerRight{
     height: 70%;
     width: 320px;
@@ -111,6 +122,25 @@ a .secBtn:hover{
         text-align: center;
         line-height: 40px;
     }
+}
+a .secBtns{
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #3348a2;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+a .secBtns:hover{
+    background-color: #435abe;
+    transition: all 650ms;
 }
 .aboutSec{
     height: 720px;
@@ -398,9 +428,20 @@ footer{
     }
     & .footerIcon{
         width: 200px;
+        /* height: 250px; */
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-between;
+        /* background-color: red; */
+        & .icon{
+            width: 40px;
+            height: 40px;
+            & img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
     }
 }
 .footerMiddle{
@@ -437,19 +478,420 @@ footer{
 }
 
 
-@media (max-width: 425px){
-    .headerRight{
-        /* width: 250px; */
-       background-color: red;
-    }
-}
-a .secBtn{
-    height: 60px;
-    width: 100px;
-   
-   
-}
-a button{
-    width: 100px;
+@media (max-width: 600px){
+    .headerImage{
+        height: 100px;
+        width: 200px;
+        /* background-color: yellow; */
 
+        & img{
+            /* height: 100%; */
+            width: 100%;
+            object-fit: cover;
+        }
 }
+    .headerRight{
+        width: 200px;
+       /* background-color: red; */
+    }
+    a .secBtn{
+        height: 40px;
+        width: 80px;
+       font-size: 15px;
+       border-radius: 30px;
+    }
+    a button{
+        height: 40px;
+        width: 80px;
+       font-size: 15px;
+       border-radius: 30px;
+    }
+    a button{
+        width: 80px;
+    }
+    .HeroPageText{
+        height: 300px;
+        width: 95%;
+      
+        /* background-color: green; */
+        gap: 10px;
+        & h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 20px;
+        }
+        & p{
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+            text-align: center;
+            line-height: 25px;
+        }
+
+        & a .secBtns{
+            height: 40px;
+            width: 80px;
+           font-size: 12px;
+           border-radius: 30px;
+        }
+    }
+    .HeroPage{
+        height: 400px;
+       
+        
+    }
+    .heroWrapper{
+        height: 400px;
+        width: 100%;
+     
+    }
+
+    .aboutSec{
+        height: 720px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+        /* background-color: red; */
+    
+        & h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+        }
+    }
+    .aboutInfo{
+        height:630px;
+        width: 100%;
+        background-color: #3348a2;
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .aboutInfoLeft{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .abtInfoWrapper{
+            color: white;
+            height: 300px;
+            width: 95%;
+            /* background-color: green; */
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            & h3{
+                font-family: "Poppins", sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            & p{
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                text-align: justify;
+                line-height: 25px;
+                
+            }
+        }
+    }
+    
+        .aboutInfoimg{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .whyInfo{
+            height: 1200px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: red;
+        
+            & h1{
+                font-family: "Poppins", sans-serif;
+                font-size: 25px;
+            }
+        
+        }
+        .whyInfoWrapper{
+            height: 95%;
+            width: 95%;
+            /* background-color: green; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            justify-content: space-around;
+        }
+        .WhyDown{
+            height: 1090px;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+            /* background-color: yellow; */
+            align-items: center;
+        }
+        .whyBox{
+            height: 400px;
+            width: 90%;
+            padding: 15px 10px 15px 10px;
+            /* border: 1px solid grey; */
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+        .whyUp{
+            height: 180px;
+            width: 95%;
+            border-radius: 10px;
+            & img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+        .whyText{
+            height: 90px;
+            width: 100%;
+            /* background-color: blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            & h3{
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            & p{
+                font-family: "Roboto", sans-serif;
+                font-size:16px;
+                text-align: center;
+                color: rgb(26, 25, 25);
+                line-height:18px;
+            }
+        }
+        .whyInfos{
+            height: 700px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: red; */
+        
+            & h1{
+                font-family: "Poppins", sans-serif;
+                font-size: 25px;
+            }
+        
+        }
+        .whyInfoWrappers{
+            height: 95%;
+            width: 95%;
+            /* background-color: green; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            justify-content: space-around;
+        }
+        .WhyDowns{
+            height: 600px;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+            /* background-color: yellow; */
+            align-items: center;
+        }
+        .whyBoxs{
+            height: 400px;
+            width: 90%;
+            padding: 15px 10px 15px 10px;
+            /* border: 1px solid grey; */
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+        .whyUps{
+            height: 180px;
+            width: 95%;
+            border-radius: 10px;
+            & img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+        .whyTexts{
+            height: 90px;
+            width: 100%;
+            /* background-color: blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            & h3{
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            & p{
+                font-family: "Roboto", sans-serif;
+                font-size:16px;
+                text-align: center;
+                color: rgb(26, 25, 25);
+                line-height:18px;
+            }
+        }
+
+        .beforeFooter{
+            height:400px;
+            width: 100%;
+            background-color: #7987c2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .beforeFooterText{
+            height: 350px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            /* background-color: green; */
+            gap: 20px;
+            & h1{
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                text-align: center;
+            }
+            & p{
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+        a .footerBtn{
+            height: 40px;
+            width: 80px;
+           font-size: 12px;
+           border-radius: 30px;
+        }
+        a .footerBtn:hover{
+            height: 40px;
+            width: 80px;
+           font-size: 12px;
+           border-radius: 30px;
+            background-color: #3348a2;
+            color: white;
+            transition: all 700ms;
+        }
+        footer{
+            height:300px;
+            width: 100%;
+            background-color: #3348a2;
+            
+        }
+        .footerWrapper{
+            height:300px;
+            width: 90%;
+            /* background-color: green; */
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+            color: white;
+            padding-left: 20px;
+        }
+        .footerLeft{
+            height: 100px;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            /* background-color: red; */
+            align-items: flex-start;
+            & .footerImage{
+                height: 80px;
+                width: 150px;
+                /* background-color: yellow; */
+        
+                & img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+               
+            }
+            & .footerIcon{
+                width: 150px;
+                /* height: 250px; */
+                display: flex;
+                /* align-items: center; */
+                justify-content: space-between;
+                /* background-color: red; */
+                & .icon{
+                    width: 30px;
+                    height: 30px;
+                    & img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+        .footerMiddle{
+            height: 300px;
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            /* background-color: red; */
+            align-items: flex-start;
+            justify-content: center;
+            gap: 10px;
+            
+        
+            & p{
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                display: flex;
+                text-align: justify;
+            }
+        
+        }
+        .footerRight{
+            height: 300px;
+            width: 90%;
+            display: flex;
+           justify-content: center;
+           align-items: flex-end;
+        
+           & p{
+            font-family: "poppins", sans-serif;
+            font-size: 12px;
+          
+        }
+        }
+} 
