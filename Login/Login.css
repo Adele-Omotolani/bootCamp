@@ -200,23 +200,48 @@ a{
     .LeftLogin{
         display: none;
     }
-    .rightLogin{
-        height: 100%;
+    .bodyWrapper{
+        height: auto;
+        width: 90%;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+    }
+    .LogoContainer2{
+        height: 50px;
         width: 100%;
-        background-color: white;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .LoginLogo2{
+        height: 100%;
+        width: 150px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .rightLogin{
+        height: auto;
+        width: 100%;
+        /* background-color: yellow; */
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .LoginWrapper{
-        height: 95%;
+        height: auto;
         width: 95%;
         display: flex;
         flex-direction: column;
         /* justify-content: space-between; */
         align-items: center;
         gap: 10px;
-        background-color: red;
+        /* background-color: red; */
     }
     .LogoContainer{
         height: 60px;
@@ -235,13 +260,14 @@ a{
         }
     }
     .LoginInfo{
-        height: 400px;
+        height: auto;
         width: 100%;
         /* background-color: purple; */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        gap: 20px;
     }
     .LoginText{
         /* height: 150px; */
@@ -260,6 +286,7 @@ a{
         & p{
             font-family: "Roboto", sans-serif;
             font-size: 16px;
+            text-align: center;
             
         }
     }
@@ -350,13 +377,13 @@ a{
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .LogindownText{
         width: 100%;
         text-align: center;
         font-family: "Roboto", sans-serif;
-        font-size: 20px;
+        font-size: 15px;
     
         & span{
             text-decoration: underline;
