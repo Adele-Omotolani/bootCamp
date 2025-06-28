@@ -51,6 +51,11 @@ body{
     align-items: center;
     /* background-color: red; */
 }
+.LogoContainer2{
+    height: 50px;
+    width: 100%;
+    display: none;
+}
 .LogoContainer{
     height: 60px;
     width: 100%;
@@ -119,6 +124,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10px;
 }
 .Icon{
     height: 20px;
@@ -131,7 +137,7 @@ body{
     }
 }
 input{
-    width: 380px;
+    width: 95%;
     height: 100%;
     border: none;
    outline: none;
@@ -206,14 +212,238 @@ a{
     }
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
     .bodyWrapper{
-        height: 90%;
-        width: 90%;
+        height: 95%;
+        width: 95%;
         /* background-color: purple; */
         display: flex;
         justify-content:center;
         align-items: center;
+        flex-direction: column;
+    }
+    .LogoContainer2{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        margin-bottom: 40px;
+    }
+    .signUpLogo2{
+        height: 100%;
+        width: 150px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .LeftSignUp{
+        display: none;
+    }
+    .rightSignUp{
+        width: 100%;
+        height:auto;
+        /* background-color: yellowgreen; */
+    }
+    .signUpWrapper{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* background-color: red; */
+        gap: 10px;
+    }
+   
+    .LogoContainer{
+        height: 50px;
+        width: 100%;
+        /* background-color: yellow; */
+        display: none;
+    }
+    .signUpLogo{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .signUpInfo{
+        height: auto;
+        width: 100%;
+        /* background-color: goldenrod; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .SignUpText{
+        /* height: 150px; */
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       margin-bottom: 30px;
+        & h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            color: #3348a2;
+        }
+        & p{
+            font-family: "Roboto", sans-serif;
+            font-size:16px;
+            text-align: center;
+        }
+    }
+    .SignUpInputBtn{
+        /* height: 350px; */
+        width: 85%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+       gap: 25px;
+       align-items: center;
+       
+    }
+    .SignUpInput{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inputHolder{
+        height: 35px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .Icon{
+        height: 20px;
+        width:20px;
+        /* margin-left: 20px; */
+        & img{
+            height: 100%;
+            width: 100%;
+           
+        }
+    }
+    input{
+        width: 90%;
+        height: 100%;
+        border: none;
+       outline: none;
+       font-size: 18px;
+       font-family: "Roboto", sans-serif;
+       /* background-color: red; */
+      
+    }
+    input::placeholder{
+        font-size:16px;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    select{
+        width: 90%;
+        height: 100%;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        color: rgb(95, 95, 95);
+        cursor: pointer;
+    }
+    
+    a .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    a{
+        text-decoration: none;
+    }
+    .signUpBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+       
+    }
+    a{
+        width: 100%;
+    }
+     a .secBtn{
+        height: 35px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #3348a2;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+     .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    
+    .SignUpdownText{
+        width: 100%;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+    
+        & span{
+            text-decoration: underline;
+            color: #3348a2;
+        }
+    }
+    
+}
+@media (min-width:768px) and (max-width:800px){
+    .bodyWrapper{
+        height: 90%;
+        width: 95%;
+        /* background-color: purple; */
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .LogoContainer2{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        margin-bottom: 30px;
+    }
+    .signUpLogo2{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
     }
     .LeftSignUp{
         display: none;
@@ -224,14 +454,15 @@ a{
     }
     .signUpWrapper{
         height: auto;
-        /* width: 80%; */
+        width: 80%;
         display: flex;
         flex-direction: column;
         /* justify-content: space-between; */
         align-items: center;
-        background-color: red;
+        /* background-color: red; */
         gap: 20px;
     }
+   
     .LogoContainer{
         height: 50px;
         width: 100%;
@@ -302,11 +533,12 @@ a{
         display: flex;
         align-items: center;
         justify-content: space-around;
+        gap: 20px;
     }
     .Icon{
-        height: 15px;
-        width: 15px;
-        margin-left: 20px;
+        height: 20px;
+        width:20px;
+        /* margin-left: 20px; */
         & img{
             height: 100%;
             width: 100%;
@@ -314,12 +546,218 @@ a{
         }
     }
     input{
-        width: 370px;
+        width: 95%;
         height: 100%;
         border: none;
        outline: none;
        font-size: 18px;
        font-family: "Roboto", sans-serif;
+       /* background-color: red; */
+      
+    }
+    input::placeholder{
+        font-size:18px;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    select{
+        width: 90%;
+        height: 100%;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        color: rgb(95, 95, 95);
+        cursor: pointer;
+    }
+    
+    a .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    a{
+        text-decoration: none;
+    }
+    .signUpBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+       
+    }
+    a{
+        width: 100%;
+    }
+     a .secBtn{
+        height: 45px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #3348a2;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+     .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    
+    .SignUpdownText{
+        width: 100%;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    
+        & span{
+            text-decoration: underline;
+            color: #3348a2;
+        }
+    }
+    
+}
+@media (min-width:801px) and (max-width:1024px){
+    .bodyWrapper{
+        height: 90%;
+        width: 95%;
+        /* background-color: purple; */
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .LogoContainer2{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        margin-bottom: 30px;
+    }
+    .signUpLogo2{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .LeftSignUp{
+        display: none;
+    }
+    .rightSignUp{
+        width: 90%;
+        height:auto;
+    }
+    .signUpWrapper{
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* background-color: red; */
+        gap: 20px;
+    }
+   
+    .LogoContainer{
+        height: 50px;
+        width: 100%;
+        /* background-color: yellow; */
+        display: none;
+    }
+    .signUpLogo{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .signUpInfo{
+        height: auto;
+        width: 100%;
+        /* background-color: goldenrod; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .SignUpText{
+        /* height: 150px; */
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       margin-bottom: 30px;
+        & h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 30px;
+            color: #3348a2;
+        }
+        & p{
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            
+        }
+    }
+    .SignUpInputBtn{
+        /* height: 350px; */
+        width: 85%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+       gap: 25px;
+       align-items: center;
+       
+    }
+    .SignUpInput{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inputHolder{
+        height: 45px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .Icon{
+        height: 20px;
+        width:20px;
+        /* margin-left: 20px; */
+        & img{
+            height: 100%;
+            width: 100%;
+           
+        }
+    }
+    input{
+        width: 95%;
+        height: 100%;
+        border: none;
+       outline: none;
+       font-size: 18px;
+       font-family: "Roboto", sans-serif;
+       /* background-color: red; */
       
     }
     input::placeholder{

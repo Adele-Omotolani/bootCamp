@@ -120,6 +120,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10px;
 }
 .Icon{
     height: 20px;
@@ -132,7 +133,7 @@ body{
     }
 }
 input{
-    width: 380px;
+    width: 95%;
     height: 100%;
     border: none;
    outline: none;
@@ -193,5 +194,173 @@ a{
     & span{
         text-decoration: underline;
         color: #3348a2;
+    }
+}
+@media (max-width:767px){
+    .LeftLogin{
+        display: none;
+    }
+    .rightLogin{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .LoginWrapper{
+        height: 95%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 10px;
+        background-color: red;
+    }
+    .LogoContainer{
+        height: 60px;
+        width: 100%;
+        display: none;
+        /* background-color: yellow; */
+    }
+    .LoginLogo{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .LoginInfo{
+        height: 400px;
+        width: 100%;
+        /* background-color: purple; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .LoginText{
+        /* height: 150px; */
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+        & h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            color: #3348a2;
+        }
+        & p{
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            
+        }
+    }
+    .LoginInputBtn{
+        /* height: 350px; */
+        width: 85%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+       gap: 25px;
+       align-items: center;
+       
+    }
+    .LoginInput{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inputHolder{
+        height: 35px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 5px;
+    }
+    .Icon{
+        height: 20px;
+        width: 20px;
+        margin-left: 20px;
+        & img{
+            height: 100%;
+            width: 100%;
+           
+        }
+    }
+    input{
+        width: 90%;
+        height: 100%;
+        border: none;
+       outline: none;
+       font-size: 20px;
+       font-family: "Roboto", sans-serif;
+      
+    }
+    input::placeholder{
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    select{
+        width: 90%;
+        height: 100%;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        color: rgb(95, 95, 95);
+        cursor: pointer;
+    }
+     .secBtn{
+        height: 35px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #3348a2;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+     .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    a{
+        text-decoration: none;
+    }
+    .LoginBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .LogindownText{
+        width: 100%;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+    
+        & span{
+            text-decoration: underline;
+            color: #3348a2;
+        }
     }
 }
