@@ -49,6 +49,7 @@ body{
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
+    gap: 10px;
     /* background-color: red; */
 }
 .LogoContainer{
@@ -67,7 +68,7 @@ body{
     }
 }
 .LoginInfo{
-    height: 450px;
+    height: 400px;
     width: 100%;
     /* background-color: purple; */
     display: flex;
@@ -114,7 +115,7 @@ body{
 .inputHolder{
     height: 50px;
     width: 100%;
-    border: 1px solid rgb(175, 175, 175);
+    border: 1px solid rgba(128, 128, 128, 0.473);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -131,7 +132,7 @@ body{
     }
 }
 input{
-    width: 430px;
+    width: 380px;
     height: 100%;
     border: none;
    outline: none;
@@ -156,10 +157,10 @@ select{
     cursor: pointer;
 }
  .secBtn{
-    height: 60px;
-    width: 200px;
+    height: 50px;
+    width: 100%;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
     background-color: #3348a2;
     font-family: "Roboto", sans-serif;

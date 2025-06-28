@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+header{
+    height: 120px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+.headerLogo{
+    height: 90%;
+    width: 250px;
+
+    & img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+    a .LogoutBtn{
+        height: 60px;
+        width: 150px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: #3348a2;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+       
+    }
+    a .LogoutBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    a{
+        text-decoration: none;
+    }
+
+
+    #output{
+        height:400px;
+        width: 94%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-top: 40px;
+        /* background-color: blue; */
+    }
+    .ListT{
+        width: 97%;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding: 40px 35px 40px 35px;
+    }
+    .QuestionHolderT{
+        height: auto;
+        width: 95%;
+        /* background-color: blueviolet; */
+        /* margin-left: 20px; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        
+        & p{
+            font-size: 18px;
+            /* font-weight: 600; */
+            font-family: "Poppins", sans-serif;
+        }
+    }
+    .qtext{
+        color:#3348a2;
+        font-family: "Poppins", sans-serif;
+    }
+     button{
+        height: 60px;
+        width: 150px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: #3348a2;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    
+    textarea{
+        height: 150px;
+        width: 95%;
+        border-radius: 10px;
+        outline: none;
+        padding: 20px;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        font-size: 20px;
+    }
+    .AnswerHolder{
+        height:auto;
+        width: 95%;
+        /* background-color: blueviolet; */
+        /* margin-left: 10px; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        
+        & p{
+            font-size: 18px;
+            /* font-weight: 600; */
+            font-family: "Poppins", sans-serif;
+        }
+    }
+    .AnsText{
+         color:#3348a2;
+         font-family: "Poppins", sans-serif;
+    }

@@ -114,7 +114,7 @@ body{
 .inputHolder{
     height: 50px;
     width: 100%;
-    border: 1px solid rgb(175, 175, 175);
+    border: 1px solid rgba(128, 128, 128, 0.473);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -131,7 +131,7 @@ body{
     }
 }
 input{
-    width: 430px;
+    width: 380px;
     height: 100%;
     border: none;
    outline: none;
@@ -155,21 +155,7 @@ select{
     color: rgb(95, 95, 95);
     cursor: pointer;
 }
-a .secBtn{
-    height: 60px;
-    width: 200px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    background-color: #3348a2;
-    font-family: "Roboto", sans-serif;
-    color: white;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
+
 a .secBtn:hover{
     background-color: #435abe;
     transition: all 650ms;
@@ -182,7 +168,32 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+   
 }
+a{
+    width: 100%;
+}
+ a .secBtn{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3348a2;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+ .secBtn:hover{
+    background-color: #435abe;
+    transition: all 650ms;
+}
+
 .SignUpdownText{
     width: 100%;
     text-align: center;
