@@ -15,7 +15,7 @@ function showQandA(showQandABox) {
   </div>
   
 `;
- 
+
     let answerHTML = "";
     if (q.answer && q.answer.trim() !== "") {
       answerHTML = `
@@ -54,3 +54,6 @@ window.addEventListener("storage", function (e) {
   }
 });
 showQandA(output);
+
+
+

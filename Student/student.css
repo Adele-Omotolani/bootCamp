@@ -158,3 +158,122 @@ header{
         color:#3348a2;
         font-family: "Poppins", sans-serif;
     }
+
+    @media (max-width:768px){
+        header{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* background-color: red; */
+        }
+        .headerLogo{
+            height: 90%;
+            width: 150px;
+        
+            & img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        
+            a .LogoutBtn{
+                height: 40px;
+                width: 100px;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                background-color: #3348a2;
+                font-family: "Roboto", sans-serif;
+                color: white;
+                font-size: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 20px;
+               
+            }
+            a .LogoutBtn:hover{
+                background-color: #435abe;
+                transition: all 650ms;
+            }
+            a{
+                text-decoration: none;
+            }
+            #StudentText{
+                height: 100px;
+                width: 100%;
+                border-radius: 10px;
+                outline: none;
+                padding: 20px;
+                border: 1px solid rgba(128, 128, 128, 0.473);
+                font-size: 20px;
+            }
+            #StudentText::placeholder{
+                font-family: "Roboto", sans-serif;
+                    font-size: 15px;
+            }
+            #StudentForm{
+
+                &   button{
+                    height: 40px;
+                    width: 100px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    background-color: #3348a2;
+                    font-family: "Roboto", sans-serif;
+                    color: white;
+                    font-size: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                button:hover{
+                    background-color: #435abe;
+                    transition: all 650ms;
+                }
+            }
+         
+            .AnswerHolder{
+                height:auto;
+                width: 95%;
+                /* background-color: blueviolet; */
+                /* margin-left: 10px; */
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                & p{
+                    font-size: 15px;
+                    /* font-weight: 600; */
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+            .AnsText{
+                 color:#3348a2;
+                 font-family: "Poppins", sans-serif;
+            }
+            .QuestionHolder{
+                height: auto;
+                width: 95%;
+                /* background-color: blueviolet; */
+                /* margin-left: 20px; */
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                & p{
+                    font-size: 15px;
+                    /* font-weight: 600; */
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+            .qtext{
+                color:#3348a2;
+                font-family: "Poppins", sans-serif;
+            }
+          
+    }

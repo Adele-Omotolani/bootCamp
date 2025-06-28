@@ -31,7 +31,7 @@ header{
     }
 }
 
-    a .LogoutBtn{
+.LogoutBtn{
         height: 60px;
         width: 150px;
         border: none;
@@ -47,12 +47,9 @@ header{
         margin-right: 30px;
        
     }
-    a .LogoutBtn:hover{
+.LogoutBtn:hover{
         background-color: #435abe;
         transition: all 650ms;
-    }
-    a{
-        text-decoration: none;
     }
 
 
@@ -143,4 +140,141 @@ header{
     .AnsText{
          color:#3348a2;
          font-family: "Poppins", sans-serif;
+    }
+
+    @media (max-width:768px){
+        body{
+           
+            gap: 0px;
+        }
+        header{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* background-color: red; */
+        }
+        .headerLogo{
+            height: 90%;
+            width: 150px;
+        
+            & img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        
+            a .LogoutBtn{
+                height: 40px;
+                width: 100px;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                background-color: #3348a2;
+                font-family: "Roboto", sans-serif;
+                color: white;
+                font-size: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 20px;
+               
+            }
+            a .LogoutBtn:hover{
+                background-color: #435abe;
+                transition: all 650ms;
+            }
+            a{
+                text-decoration: none;
+            }
+            #output{
+                height:400px;
+                width: 94%;
+                overflow-y: auto;
+                overflow-x: hidden;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+                margin-top: 20px;
+                /* background-color: blue; */
+            }
+            .ListT{
+                width: 97%;
+                border-radius: 5px;
+                border: 1px solid rgba(128, 128, 128, 0.473);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+                padding: 30px 25px 30px 25px;
+            }
+            .QuestionHolderT{
+                height: auto;
+                width: 100%;
+                /* background-color: blueviolet; */
+                /* margin-left: 20px; */
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                & p{
+                    font-size: 18px;
+                    /* font-weight: 600; */
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+            .qtext{
+                color:#3348a2;
+                font-family: "Poppins", sans-serif;
+            }
+             button{
+                height: 40px;
+                width: 100px;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                background-color: #3348a2;
+                font-family: "Roboto", sans-serif;
+                color: white;
+                font-size: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            button:hover{
+                background-color: #435abe;
+                transition: all 650ms;
+            }
+      
+            textarea{
+                height: 120px;
+                width: 100%;
+                border-radius: 10px;
+                outline: none;
+                padding: 20px;
+                border: 1px solid rgba(128, 128, 128, 0.473);
+                font-size: 18px;
+            }
+            .AnswerHolder{
+                height:auto;
+                width: 95%;
+                /* background-color: blueviolet; */
+                /* margin-left: 10px; */
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                & p{
+                    font-size: 18px;
+                    /* font-weight: 600; */
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+            .AnsText{
+                 color:#3348a2;
+                 font-family: "Poppins", sans-serif;
+            }
     }

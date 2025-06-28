@@ -68,3 +68,12 @@ window.addEventListener("storage", function (e) {
 showStudentQuestion(output);
 
 
+
+function logout() {
+  localStorage.clear(users);
+  setTimeout(() => {
+    window.location.href = "../Login/Login.html";
+  }, 1500);
+}
+
+

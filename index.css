@@ -25,7 +25,7 @@ justify-content: center;
 }
 .headerImage{
         height: 100px;
-        width: 300px;
+        width: 250px;
         /* background-color: yellow; */
 
         & img{
@@ -169,11 +169,12 @@ a .secBtns:hover{
     height: 100%;
     width: 45%;
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
     & .abtInfoWrapper{
         color: black;
         height: 500px;
-        width: 600px;
+        width: 550px;
         /* background-color: green; */
         display: flex;
         flex-direction: column;
