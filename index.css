@@ -889,7 +889,7 @@ footer{
 @media (max-width:768px){
     .headerImage{
         height: 100px;
-        width: 200px;
+        width: 150px;
         /* background-color: yellow; */
 
         & img{
@@ -899,12 +899,12 @@ footer{
         }
 }
     .headerRight{
-        width: 200px;
+        width: 180px;
        /* background-color: red; */
     }
     a .secBtn{
         height: 40px;
-        width: 80px;
+        width: 85px;
        font-size: 15px;
        border-radius: 30px;
     }

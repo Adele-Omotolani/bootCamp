@@ -52,6 +52,11 @@ body{
     gap: 10px;
     /* background-color: red; */
 }
+.LogoContainer2{
+    height: 50px;
+    width: 100%;
+    display: none;
+}
 .LogoContainer{
     height: 60px;
     width: 100%;
@@ -317,8 +322,8 @@ a{
         gap: 5px;
     }
     .Icon{
-        height: 20px;
-        width: 20px;
+        height: 16px;
+        width: 16px;
         margin-left: 20px;
         & img{
             height: 100%;
@@ -390,4 +395,414 @@ a{
             color: #3348a2;
         }
     }
+}
+@media (min-width:768px) and (max-width:800px){
+    .bodyWrapper{
+        height: 90%;
+        width: 95%;
+        /* background-color: purple; */
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .LogoContainer2{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        margin-bottom: 30px;
+    }
+    .LoginLogo2{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .LeftLogin{
+        display: none;
+    }
+    .rightLogin{
+        width: 90%;
+        height:auto;
+    }
+    .LoginWrapper{
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* background-color: red; */
+        gap: 20px;
+    }
+   
+    .LogoContainer{
+        height: 50px;
+        width: 100%;
+        /* background-color: yellow; */
+        display: none;
+    }
+    .LoginLogo{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .LoginInfo{
+        height: auto;
+        width: 100%;
+        /* background-color: goldenrod; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .LoginText{
+        /* height: 150px; */
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       margin-bottom: 30px;
+        & h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 30px;
+            color: #3348a2;
+        }
+        & p{
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            
+        }
+    }
+    .LoginInputBtn{
+        /* height: 350px; */
+        width: 85%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+       gap: 25px;
+       align-items: center;
+       
+    }
+    .LoginInput{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inputHolder{
+        height: 45px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .Icon{
+        height: 20px;
+        width:20px;
+        /* margin-left: 20px; */
+        & img{
+            height: 100%;
+            width: 100%;
+           
+        }
+    }
+    input{
+        width: 95%;
+        height: 100%;
+        border: none;
+       outline: none;
+       font-size: 18px;
+       font-family: "Roboto", sans-serif;
+       /* background-color: red; */
+      
+    }
+    input::placeholder{
+        font-size:18px;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    select{
+        width: 90%;
+        height: 100%;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        color: rgb(95, 95, 95);
+        cursor: pointer;
+    }
+    
+    a .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    a{
+        text-decoration: none;
+    }
+    .LoginBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+       
+    }
+    a{
+        width: 100%;
+    }
+     a .secBtn{
+        height: 45px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #3348a2;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+     .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    
+    .LogindownText{
+        width: 100%;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    
+        & span{
+            text-decoration: underline;
+            color: #3348a2;
+        }
+    }
+    
+}
+@media (min-width:801px) and (max-width:1024px){
+    .bodyWrapper{
+        height: 90%;
+        width: 95%;
+        /* background-color: purple; */
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .LogoContainer2{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        margin-bottom: 30px;
+    }
+    .LoginLogo2{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .LeftLogin{
+        display: none;
+    }
+    .rightLogin{
+        width: 90%;
+        height:auto;
+    }
+    .LoginWrapper{
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        /* background-color: red; */
+        gap: 20px;
+    }
+   
+    .LogoContainer{
+        height: 50px;
+        width: 100%;
+        /* background-color: yellow; */
+        display: none;
+    }
+    .LoginLogo{
+        height: 100%;
+        width: 200px;
+    
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .LoginInfo{
+        height: auto;
+        width: 100%;
+        /* background-color: goldenrod; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .LoginText{
+        /* height: 150px; */
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       margin-bottom: 30px;
+        & h1{
+            font-family: "Poppins", sans-serif;
+            font-size: 30px;
+            color: #3348a2;
+        }
+        & p{
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            
+        }
+    }
+    .LoginInputBtn{
+        /* height: 350px; */
+        width: 85%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+       gap: 25px;
+       align-items: center;
+       
+    }
+    .LoginInput{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inputHolder{
+        height: 45px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.473);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap:15px;
+    }
+    .Icon{
+        height: 20px;
+        width:20px;
+        /* margin-left: 20px; */
+        & img{
+            height: 100%;
+            width: 100%;
+           
+        }
+    }
+    input{
+        width: 95%;
+        height: 100%;
+        border: none;
+       outline: none;
+       font-size: 18px;
+       font-family: "Roboto", sans-serif;
+       /* background-color: red; */
+      
+    }
+    input::placeholder{
+        font-size:18px;
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    select{
+        width: 90%;
+        height: 100%;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        color: rgb(95, 95, 95);
+        cursor: pointer;
+    }
+    
+    a .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    a{
+        text-decoration: none;
+    }
+    .LoginBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+       
+    }
+    a{
+        width: 100%;
+    }
+     a .secBtn{
+        height: 45px;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #3348a2;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+     .secBtn:hover{
+        background-color: #435abe;
+        transition: all 650ms;
+    }
+    
+    .LogindownText{
+        width: 100%;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    
+        & span{
+            text-decoration: underline;
+            color: #3348a2;
+        }
+    }
+    
 }
