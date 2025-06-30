@@ -1,6 +1,7 @@
 let questions = JSON.parse(localStorage.getItem("questions") || "[]");
-
 const output = document.getElementById("output");
+const loggedin = JSON.parse(localStorage.getItem("loggedin"));
+const users = JSON.parse(localStorage.getItem("users") || "[]");
 
 function showQandA(showQandABox) {
   showQandABox.innerHTML = "";
@@ -56,4 +57,13 @@ window.addEventListener("storage", function (e) {
 showQandA(output);
 
 
+function logout() {
 
+  if(loggedin.usersRole === "Teacher"){
+ localStorage.removeItem("loggedin");
+    setTimeout(() => {
+      window.location.href = "../Login/Login.html";
+    }, 1500);
+  }
+  
+}

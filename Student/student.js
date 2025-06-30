@@ -70,10 +70,12 @@ showStudentQuestion(output);
 
 
 function logout() {
-  localStorage.clear(users);
-  setTimeout(() => {
-    window.location.href = "../Login/Login.html";
-  }, 1500);
+  if (loggedin.usersRole === "Student") {
+    localStorage.removeItem("loggedin");
+    setTimeout(() => {
+      window.location.href = "../Login/Login.html";
+    }, 1500);
+  }
 }
 
 

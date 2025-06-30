@@ -31,7 +31,7 @@ header{
     }
 }
 
-    a .LogoutBtn{
+    .LogoutBtn{
         height: 60px;
         width: 150px;
         border: none;
@@ -47,7 +47,7 @@ header{
         margin-right: 30px;
        
     }
-    a .LogoutBtn:hover{
+     .LogoutBtn:hover{
         background-color: #435abe;
         transition: all 650ms;
     }
@@ -179,7 +179,7 @@ header{
             }
         }
         
-            a .LogoutBtn{
+             .LogoutBtn{
                 height: 40px;
                 width: 100px;
                 border: none;
@@ -195,7 +195,7 @@ header{
                 margin-right: 20px;
                
             }
-            a .LogoutBtn:hover{
+             .LogoutBtn:hover{
                 background-color: #435abe;
                 transition: all 650ms;
             }

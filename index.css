@@ -468,428 +468,26 @@ footer{
 }
 }
 
-/* 
-@media (min-width: 575px) and(max-width:767px){
-    .headerImage{
-        height: 100px;
-        width: 200px;
-        
 
-        & img{
-           
-            width: 100%;
-            object-fit: cover;
-        }
-}
-    .headerRight{
-        width: 170px;
-      
-    }
-    a .secBtn{
-        height: 40px;
-        width: 80px;
-       font-size: 15px;
-       border-radius: 30px;
-    }
-    a button{
-        height: 40px;
-        width: 80px;
-       font-size: 15px;
-       border-radius: 30px;
-    }
-    a button{
-        width: 80px;
-    }
-    .HeroPageText{
-        height: 300px;
-        width: 95%;
-        gap: 10px;
-        & h1{
-            font-family: "Poppins", sans-serif;
-            font-size: 20px;
-        }
-        & p{
-            font-family: "Roboto", sans-serif;
-            font-size: 15px;
-            text-align: center;
-            line-height: 25px;
-        }
 
-        & a .secBtns{
-            height: 40px;
-            width: 80px;
-           font-size: 12px;
-           border-radius: 30px;
-        }
-    }
-    .HeroPage{
-        height: 400px;
-       
-        
-    }
-    .heroWrapper{
-        height: 400px;
+@media (max-width:574px){
+    header{
         width: 100%;
-     
-    }
-
-    .aboutSec{
-        height: 720px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 20px;
-       
-    
-        & h1{
-            font-family: "Poppins", sans-serif;
-            font-size: 25px;
-        }
-    }
-    .aboutInfo{
-        height:630px;
-        width: 100%;
-        background-color: #3348a2;
-        display: flex;
-        flex-direction: column;
-       
-        
-    }
-    .aboutInfoLeft{
-        height: 100%;
-        width: 100%;
+        height: 80px;
+        /* background-color: red; */
         display: flex;
         justify-content: center;
-        align-items: center;
-        & .abtInfoWrapper{
-            color: white;
-            height: 300px;
-            width: 95%;
-
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            justify-content: center;
-            & h3{
-                font-family: "Poppins", sans-serif;
-                font-size: 18px;
-                font-weight: 600;
-            }
-            & p{
-                font-family: "Roboto", sans-serif;
-                font-size: 15px;
-                text-align: justify;
-                line-height: 25px;
-                
-            }
         }
-    }
-    
-        .aboutInfoimg{
+        .headerWrapper{
             height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-        .whyInfo{
-        
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: red;
-            margin-top: 30px;
-            & h1{
-                font-family: "Poppins", sans-serif;
-                font-size: 25px;
-            }
-        
-        }
-        .whyInfoWrapper{
-            height:95%;
-            width: 95%;
-            
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-           
-          
-        }
-        .WhyDown{
-            height: 1090px;
             width: 95%;
             display: flex;
-            flex-direction: column;
+            align-items: center;
             justify-content: space-between;
-            gap: 20px;
-            
-            align-items: center;
         }
-        .whyBox{
-            height: 400px;
-            width: 90%;
-            padding: 15px 10px 15px 10px;
-           
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-        }
-        .whyUp{
-            height: 180px;
-            width: 95%;
-            border-radius: 10px;
-            & img{
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 10px;
-            }
-        }
-        .whyText{
-            height: 90px;
-            width: 100%;
- 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 10px;
-            & h3{
-                font-family: "Poppins", sans-serif;
-                font-size: 20px;
-                font-weight: 600;
-            }
-            & p{
-                font-family: "Roboto", sans-serif;
-                font-size:16px;
-                text-align: center;
-                color: rgb(26, 25, 25);
-                line-height:18px;
-            }
-        }
-        .whyInfos{
-            height: 700px;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          
-        
-            & h1{
-                font-family: "Poppins", sans-serif;
-                font-size: 25px;
-            }
-        
-        }
-        .whyInfoWrappers{
-            height: 95%;
-            width: 95%;
-           
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0px;
-            justify-content: space-around;
-        }
-        .WhyDowns{
-            height: 600px;
-            width: 95%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            gap: 20px;
-          
-            align-items: center;
-        }
-        .whyBoxs{
-            height: 400px;
-            width: 90%;
-            padding: 15px 10px 15px 10px;
-           
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-        }
-        .whyUps{
-            height: 180px;
-            width: 95%;
-            border-radius: 10px;
-            & img{
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 10px;
-            }
-        }
-        .whyTexts{
-            height: 90px;
-            width: 100%;
-          
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 10px;
-            & h3{
-                font-family: "Poppins", sans-serif;
-                font-size: 20px;
-                font-weight: 600;
-            }
-            & p{
-                font-family: "Roboto", sans-serif;
-                font-size:16px;
-                text-align: center;
-                color: rgb(26, 25, 25);
-                line-height:18px;
-            }
-        }
-
-        .beforeFooter{
-            height:400px;
-            width: 100%;
-            background-color: #7987c2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .beforeFooterText{
-            height: 350px;
-            width: 90%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            
-            gap: 20px;
-            & h1{
-                font-family: "Poppins", sans-serif;
-                font-size: 20px;
-                text-align: center;
-            }
-            & p{
-                font-family: "Roboto", sans-serif;
-                font-size: 16px;
-                text-align: center;
-                line-height: 30px;
-            }
-        }
-        a .footerBtn{
-            height: 40px;
-            width: 80px;
-           font-size: 12px;
-           border-radius: 30px;
-        }
-        a .footerBtn:hover{
-            height: 40px;
-            width: 80px;
-           font-size: 12px;
-           border-radius: 30px;
-            background-color: #3348a2;
-            color: white;
-            transition: all 700ms;
-        }
-        footer{
-            height:300px;
-            width: 100%;
-            background-color: #3348a2;
-            
-        }
-        .footerWrapper{
-            height:300px;
-            width: 90%;
-            
-            display: flex;
-            justify-content: space-around;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 30px;
-            color: white;
-            padding-left: 20px;
-        }
-        .footerLeft{
-            height: 100px;
-            width: 80%;
-            display: flex;
-            flex-direction: column;
-          
-            align-items: flex-start;
-            & .footerImage{
-                height: 80px;
-                width: 150px;
-               
-        
-                & img{
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                }
-               
-            }
-            & .footerIcon{
-                width: 150px;
-               
-                display: flex;
-             
-                justify-content: space-between;
-               
-                & .icon{
-                    width: 30px;
-                    height: 30px;
-                    & img{
-                        height: 100%;
-                        width: 100%;
-                        object-fit: contain;
-                    }
-                }
-            }
-        }
-        .footerMiddle{
-            height: 300px;
-            width: 150px;
-            display: flex;
-            flex-direction: column;
-            
-            align-items: flex-start;
-            justify-content: center;
-            gap: 10px;
-            
-        
-            & p{
-                font-family: "Roboto", sans-serif;
-                font-size: 15px;
-                display: flex;
-                text-align: justify;
-            }
-        
-        }
-        .footerRight{
-            height: 300px;
-            width: 90%;
-            display: flex;
-           justify-content: center;
-           align-items: flex-end;
-        
-           & p{
-            font-family: "poppins", sans-serif;
-            font-size: 12px;
-          
-        }
-        }
-}  */
-
-@media (max-width:768px){
     .headerImage{
-        height: 100px;
-        width: 150px;
+        height: 80px;
+        width: 130px;
         /* background-color: yellow; */
 
         & img{
@@ -899,19 +497,19 @@ footer{
         }
 }
     .headerRight{
-        width: 180px;
+        width: 155px;
        /* background-color: red; */
     }
     a .secBtn{
         height: 40px;
-        width: 85px;
-       font-size: 15px;
+        width: 75px;
+       font-size: 13px;
        border-radius: 30px;
     }
     a button{
         height: 40px;
-        width: 80px;
-       font-size: 15px;
+        width: 75px;
+       font-size: 14px;
        border-radius: 30px;
     }
     a button{
@@ -964,9 +562,10 @@ a .secBtn:hover{
  
 }
 a .secBtns{
-    height: 50px;
-    width: 110px;
-    font-size: 16px;
+    height: 40px;
+    width: 100px;
+   font-size: 14px;
+   border-radius: 30px;
    
 }
 a .secBtns:hover{
@@ -1048,7 +647,7 @@ a .secBtns:hover{
 } */
 .aboutInfoimg{
     height: 250px;
-    width: 90%;
+    width: 80%;
     border-radius: 10px;
     margin-right: 0px;
     /* margin-left: 20px; */
@@ -1066,7 +665,7 @@ a .secBtns:hover{
     align-items: center;
     justify-content: center;
     /* background-color: red; */
-    margin-top: 30px;
+    margin-top: 40px;
     & h1{
         font-family: "Poppins", sans-serif;
         font-size: 20px;
@@ -1081,7 +680,7 @@ a .secBtns:hover{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-   background-color: red;
+   /* background-color: red; */
   
 }
 .WhyDown{
@@ -1107,7 +706,7 @@ a .secBtns:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .whyUp{
-    height: 150px;
+    height: 70%;
     width: 95%;
     border-radius: 10px;
     & img{
@@ -1147,7 +746,7 @@ a .secBtns:hover{
     align-items: center;
     justify-content: center;
   /* background-color: red; */
-    margin-top:30px;
+    margin-top:40px;
     & h1{
         font-family: "Poppins", sans-serif;
         font-size: 20px;
@@ -1338,34 +937,49 @@ footer{
 }
 }
 
-@media (min-width:767px) and (max-width:1024px){
+@media (min-width:575px) and (max-width:1024px){
+    header{
+        width: 100%;
+        height: 80px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        }
+        .headerWrapper{
+            height: 100%;
+            width: 95%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     .headerImage{
         height: 100px;
         width: 200px;
 }
 .headerRight{
     height: 70%;
-    width: 200px;
-
+    width: 185px;
+    /* background-color: red; */
+    margin-right: 15px;
 }
 
 a .secBtn{
-    height: 50px;
-    width: 100px;
-    font-size: 18px;
+    height: 45px;
+    width: 90px;
+    font-size: 16px;
  
    
 }
 a button{
-    height: 50px;
-    width: 100px;
-    font-size: 20px;
+    height: 45px;
+    width: 90px;
+    font-size: 16px;
     
  
 }
 a button:hover{
-    height: 50px;
-    width: 100px;
+    height: 45px;
+    width: 90px;
     border-radius: 50px;
     background-color: #3348a2;
     color: white;
@@ -1376,16 +990,16 @@ a .secBtn:hover{
     transition: all 650ms;
 }
 .HeroPage{
-    height: 500px;
+    height: 400px;
    
     
 }
 .heroWrapper{
-    height: 500px;
+    height: 400px;
   
 }
 .HeroPageText{
-    height: 400px;
+    height: 350px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -1393,22 +1007,22 @@ a .secBtn:hover{
     align-items: center;
     color: white;
     /* background-color: green; */
-    gap: 20px;
+    gap: 10px;
     & h1{
         font-family: "Poppins", sans-serif;
-        font-size: 45px;
+        font-size: 35px;
     }
     & p{
         font-family: "Roboto", sans-serif;
-        font-size: 20px;
+        font-size:18px;
         text-align: center;
-        line-height: 35px;
+        line-height: 30px;
     }
 }
 a .secBtns{
-    height: 50px;
-    width: 110px;
-    font-size: 16px;
+    height: 45px;
+    width: 100px;
+    font-size: 14px;
    
 }
 a .secBtns:hover{
@@ -1419,20 +1033,20 @@ a .secBtns:hover{
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: flex-end;
     align-items: center;
-    gap: 0px;
-    margin-top: 30px;
+    gap: 20px;
+    margin-top: 45px;
     /* background-color: red; */
 
     & h1{
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 .aboutInfo{
-    height: 700px;
+    height:auto;
     width: 100%;
     background-color: white;
     display: flex;
@@ -1440,35 +1054,38 @@ a .secBtns:hover{
     /* background-color: purple; */
     flex-direction: column;
     justify-content: space-between;
-    
+    gap: 25px;
 }
 .aboutInfoLeft{
-    height: 300px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: yellow; */
+    
     & .abtInfoWrapper{
         color: black;
-        height: 250px;
-        width: 700px;
+        height: auto;
+        width: 90%;
         /* background-color: green; */
         display: flex;
         flex-direction: column;
-        gap: 0px;
-        justify-content:space-around;
+        gap: 8px;
+        justify-content:center;
         text-align: center;
         & h3{
             font-family: "Poppins", sans-serif;
-            font-size: 28px;
+            font-size: 23px;
             font-weight: 600;
+            color: rgb(46, 46, 46);
         }
         & p{
             font-family: "Roboto", sans-serif;
-            font-size: 20px;
+            font-size: 17px;
             text-align: center;
-            line-height: 35px;
+            line-height: 28px;
+            color: rgb(71, 71, 71);
             
         }
     }
@@ -1476,13 +1093,15 @@ a .secBtns:hover{
 
 
 .aboutInfoimg{
-    height: 53%;
+    /* background-color: red; */
+    display: flex;
+    height: 300px;
     width: 90%;
     border-radius: 10px;
     margin-right: 0px;
     /* margin-left: 20px; */
     & img{
-        height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -1495,39 +1114,38 @@ a .secBtns:hover{
     align-items: center;
     justify-content: center;
     /* background-color: red; */
-    margin-top: 30px;
+    margin-top: 50px;
     & h1{
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
     }
 
 }
 .whyInfoWrapper{
-    height:95%;
+    height:auto;
     width: 95%;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-   
+   /* background-color: red; */
   
 }
 .WhyDown{
     height: auto;
-    width: 95%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 25px;
     /* background-color: green; */
     align-items: center;
+    flex-wrap: wrap;
 }
 .whyBox{
-    height: 600px;
-    width: 90%;
+    height: 330px;
+    width:45%;
     padding: 15px 10px 15px 10px;
-   
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -1536,7 +1154,7 @@ a .secBtns:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .whyUp{
-    height: 350px;
+    height: 160px;
     width: 95%;
     border-radius: 10px;
     & img{
@@ -1549,27 +1167,28 @@ a .secBtns:hover{
 .whyText{
     height: 90px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    text-align: center;
     & h3{
         font-family: "Poppins", sans-serif;
-        font-size: 30px;
+        font-size:18px;
         font-weight: 600;
+        color: rgb(46, 46, 46);
     }
     & p{
         font-family: "Roboto", sans-serif;
-        font-size:20px;
+        font-size:14px;
         text-align: center;
-        color: rgb(26, 25, 25);
-        line-height:18px;
+        line-height:23px;
+        color: rgb(71, 71, 71);
     }
 }
 .whyInfos{
-    height: 900px;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1578,41 +1197,41 @@ a .secBtns:hover{
     margin-top: 50px;
     & h1{
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
     }
 
 }
 .whyInfoWrappers{
-    height: 95%;
+    height:auto;
     width: 95%;
-   
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0px;
-    justify-content: space-around;
+    gap: 20px;
+    /* background-color: green; */
 }
 .WhyDowns{
-    height: 750px;
-    width: 95%;
+    height: auto;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* flex-direction: column; */
+    justify-content: center;
     gap: 25px;
-  /* background-color: blue; */
+    /* background-color: green; */
     align-items: center;
+    flex-wrap: wrap;
 }
 .whyBoxs{
-    height: 400px;
-    width: 90%;
+    height: 200px;
+    width: 45%;
     padding: 15px 10px 15px 10px;
-   
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
 }
 .whyUps{
     height: 180px;
@@ -1626,8 +1245,8 @@ a .secBtns:hover{
     }
 }
 .whyTexts{
-    height: 90px;
-    width: 100%;
+    height: auto;
+    /* width: 100%; */
   
     display: flex;
     justify-content: center;
@@ -1636,25 +1255,27 @@ a .secBtns:hover{
     gap: 10px;
     & h3{
         font-family: "Poppins", sans-serif;
-        font-size: 30px;
+        font-size: 23px;
         font-weight: 600;
+        color: rgb(46, 46, 46);
     }
     & p{
         font-family: "Roboto", sans-serif;
-        font-size:20px;
+        font-size:16px;
         text-align: center;
-        color: rgb(26, 25, 25);
-        line-height:25px;
+        color: rgb(71, 71, 71);
+        line-height:23px;
     }
 }
 
 .beforeFooter{
-    height:400px;
+    height:350px;
     width: 100%;
     background-color: #7987c2;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 45px;
 }
 .beforeFooterText{
     height: 350px;
@@ -1668,57 +1289,57 @@ a .secBtns:hover{
     gap: 20px;
     & h1{
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
     & p{
         font-family: "Roboto", sans-serif;
-        font-size: 20px;
+        font-size: 17px;
         text-align: center;
         line-height: 30px;
     }
 }
 a .footerBtn{
-    height: 50px;
-    width: 120px;
-   font-size: 18px;
+    height: 45px;
+    width: 100px;
+   font-size: 15px;
    border-radius: 30px;
 }
 a .footerBtn:hover{
-    height: 40px;
-    width: 80px;
-   font-size: 12px;
+    height: 45px;
+    width: 100px;
+   font-size: 15px;
    border-radius: 30px;
     background-color: #3348a2;
     color: white;
     transition: all 700ms;
 }
 footer{
-    height:150px;
+    height:130px;
     width: 100%;
     background-color: #3348a2;
     
 }
 .footerWrapper{
-    height:150px;
-    width: 90%;
+    height:130px;
+    width: 95%;
     /* background-color: red; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 0px;
     color: white;
 }
 .footerLeft{
-    height: 50px;
-    width: 300px;
+    height: 60px;
+    width: 150px;
     display: flex;
     flex-direction: column;
-    /* background-color: red; */
+    /* background-color: green; */
     align-items: center;
     & .footerImage{
-        height: 50px;
-        width: 200px;
+        height: 60px;
+        width: 150px;
         /* background-color: yellow; */
 
         & img{
@@ -1738,8 +1359,8 @@ footer{
     justify-content: space-between;
     /* background-color: red; */
     & .icon{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         & img{
             height: 100%;
             width: 100%;
@@ -1750,11 +1371,11 @@ footer{
 
 .footerRight{
     height: 50px;
-    width: 400px;
+    width: 320px;
     display: flex;
    justify-content: center;
    align-items: center;
-   /* background-color: red; */
+   /* background-color: purple; */
 
    & p{
     font-family: "poppins", sans-serif;

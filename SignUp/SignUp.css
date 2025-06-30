@@ -15,7 +15,7 @@ body{
 .bodyWrapper{
     height: 90%;
     width: 90%;
-    /* background-color: white; */
+    /* background-color: purple; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +41,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: red; */
 }
 .signUpWrapper{
     height: 95%;
@@ -51,11 +52,7 @@ body{
     align-items: center;
     /* background-color: red; */
 }
-.LogoContainer2{
-    height: 50px;
-    width: 100%;
-    display: none;
-}
+
 .LogoContainer{
     height: 60px;
     width: 100%;
@@ -214,7 +211,7 @@ a{
 
 @media (max-width:767px){
     .bodyWrapper{
-        height: 95%;
+        height: 100%;
         width: 95%;
         /* background-color: purple; */
         display: flex;
@@ -222,33 +219,17 @@ a{
         align-items: center;
         flex-direction: column;
     }
-    .LogoContainer2{
-        height: 50px;
-        width: 100%;
-        display: flex;
-        /* background-color: red; */
-        margin-bottom: 40px;
-    }
-    .signUpLogo2{
-        height: 100%;
-        width: 150px;
-    
-        & img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-    }
+ 
     .LeftSignUp{
         display: none;
     }
     .rightSignUp{
         width: 100%;
-        height:auto;
+        height:100%;
         /* background-color: yellowgreen; */
     }
     .signUpWrapper{
-        height: auto;
+        height: 95%;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -262,11 +243,11 @@ a{
         height: 50px;
         width: 100%;
         /* background-color: yellow; */
-        display: none;
+        display: flex;
     }
     .signUpLogo{
         height: 100%;
-        width: 200px;
+        width:150px;
     
         & img{
             height: 100%;
@@ -286,7 +267,7 @@ a{
     }
     .SignUpText{
         /* height: 150px; */
-        width: 100%;
+        width: 90%;
         /* background-color: red; */
         display: flex;
         justify-content: center;
@@ -420,7 +401,7 @@ a{
 }
 @media (min-width:768px) and (max-width:800px){
     .bodyWrapper{
-        height: 90%;
+        height: 100%;
         width: 95%;
         /* background-color: purple; */
         display: flex;
@@ -428,46 +409,34 @@ a{
         align-items: center;
         flex-direction: column;
     }
-    .LogoContainer2{
-        height: 50px;
-        width: 100%;
-        display: flex;
-        /* background-color: red; */
-        margin-bottom: 30px;
-    }
-    .signUpLogo2{
-        height: 100%;
-        width: 200px;
-    
-        & img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-    }
+   
     .LeftSignUp{
         display: none;
     }
     .rightSignUp{
-        width: 90%;
+        width: 100%;
         height:auto;
+        /* background-color: red; */
+        /* display: flex; */
     }
     .signUpWrapper{
-        height: auto;
-        width: 80%;
+        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         /* justify-content: space-between; */
         align-items: center;
         /* background-color: red; */
-        gap: 20px;
+        gap: 40px;
+        /* background-color: greenyellow; */
     }
    
     .LogoContainer{
         height: 50px;
         width: 100%;
         /* background-color: yellow; */
-        display: none;
+        display: flex;
+        /* margin-bottom: 20px; */
     }
     .signUpLogo{
         height: 100%;
@@ -481,7 +450,7 @@ a{
     }
     .signUpInfo{
         height: auto;
-        width: 100%;
+        width:75%;
         /* background-color: goldenrod; */
         display: flex;
         flex-direction: column;
@@ -524,6 +493,7 @@ a{
         display: flex;
         flex-direction: column;
         gap: 10px;
+        /* background-color: red; */
     }
     .inputHolder{
         height: 45px;
@@ -533,7 +503,7 @@ a{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        gap: 20px;
+        gap: 5px;
     }
     .Icon{
         height: 20px;
@@ -562,7 +532,7 @@ a{
         align-items: center;
     }
     select{
-        width: 90%;
+        width: 95%;
         height: 100%;
         outline: none;
         border: none;
@@ -625,7 +595,7 @@ a{
 }
 @media (min-width:801px) and (max-width:1024px){
     .bodyWrapper{
-        height: 90%;
+        height: 100%;
         width: 95%;
         /* background-color: purple; */
         display: flex;
@@ -633,46 +603,30 @@ a{
         align-items: center;
         flex-direction: column;
     }
-    .LogoContainer2{
-        height: 50px;
-        width: 100%;
-        display: flex;
-        /* background-color: red; */
-        margin-bottom: 30px;
-    }
-    .signUpLogo2{
-        height: 100%;
-        width: 200px;
-    
-        & img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-    }
+  
     .LeftSignUp{
         display: none;
     }
     .rightSignUp{
-        width: 90%;
+        width: 100%;
         height:auto;
     }
     .signUpWrapper{
         height: auto;
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         /* justify-content: space-between; */
         align-items: center;
         /* background-color: red; */
-        gap: 20px;
+        gap: 40px;
     }
    
     .LogoContainer{
         height: 50px;
         width: 100%;
         /* background-color: yellow; */
-        display: none;
+        display: flex;
     }
     .signUpLogo{
         height: 100%;
@@ -686,7 +640,7 @@ a{
     }
     .signUpInfo{
         height: auto;
-        width: 100%;
+        width: 75%;
         /* background-color: goldenrod; */
         display: flex;
         flex-direction: column;
@@ -738,7 +692,7 @@ a{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        gap: 20px;
+        gap: 5px;
     }
     .Icon{
         height: 20px;
@@ -767,7 +721,7 @@ a{
         align-items: center;
     }
     select{
-        width: 90%;
+        width: 95%;
         height: 100%;
         outline: none;
         border: none;
