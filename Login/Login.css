@@ -43,19 +43,21 @@ body{
     justify-content: center;
 }
 .LoginWrapper{
-    height: 95%;
+    height: 100%;
     width: 95%;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     /* background-color: red; */
 }
 
 .LogoContainer{
     height: 60px;
     width: 100%;
+    display: flex;
+    justify-content: center;
     /* background-color: yellow; */
 }
 .LoginLogo{
@@ -65,7 +67,7 @@ body{
     & img{
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 .LoginInfo{
@@ -85,15 +87,16 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
+   grid-gap: 5px;
     & h1{
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         color: #3348a2;
+        font-weight: 500;
     }
     & p{
         font-family: "Roboto", sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         
     }
 }
@@ -190,7 +193,7 @@ a{
     width: 100%;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 
     & span{
         text-decoration: underline;
@@ -224,9 +227,9 @@ a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
+        justify-content: center;
         align-items: center;
-        gap: 50px;
+        gap: 20px;
         /* background-color: red; */
     }
     .LogoContainer{
@@ -242,7 +245,7 @@ a{
         & img{
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     .LoginInfo{
@@ -401,14 +404,14 @@ a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
+        justify-content: center;
         align-items: center;
         /* background-color: red; */
         gap: 20px;
     }
    
     .LogoContainer{
-        height: 50px;
+        height: 60px;
         width: 100%;
         /* background-color: yellow; */
         display: flex;
@@ -421,7 +424,7 @@ a{
         & img{
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     .LoginInfo{
@@ -433,7 +436,7 @@ a{
         justify-content: center;
         align-items: center;
         gap: 0px;
-        margin-top: 50px;
+        /* margin-top: 30px; */
     }
     .LoginText{
         /* height: 150px; */
@@ -593,18 +596,18 @@ a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
+        justify-content: center;
         align-items: center;
         /* background-color: red; */
         gap: 20px;
     }
    
     .LogoContainer{
-        height: 50px;
+        height: 60px;
         width: 100%;
         /* background-color: yellow; */
         display: flex;
-        margin-bottom: 70px;
+        margin-bottom: 0px;
     }
     .LoginLogo{
         height: 100%;
@@ -613,7 +616,7 @@ a{
         & img{
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     .LoginInfo{

@@ -41,22 +41,27 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: red; */
+  
+    /* background-color: blue; */
 }
 .signUpWrapper{
-    height: 95%;
+    height: 100%;
     width: 95%;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
     /* background-color: red; */
+    gap: 20px;
 }
 
 .LogoContainer{
     height: 60px;
     width: 100%;
     /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
 }
 .signUpLogo{
     height: 100%;
@@ -65,7 +70,7 @@ body{
     & img{
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 .signUpInfo{
@@ -85,11 +90,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     & h1{
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         color: #3348a2;
+        font-weight: 500;
     }
     & p{
         font-family: "Roboto", sans-serif;
@@ -201,7 +207,7 @@ a{
     width: 100%;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 
     & span{
         text-decoration: underline;
@@ -233,10 +239,10 @@ a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
+        justify-content: center;
         align-items: center;
         /* background-color: red; */
-        gap: 10px;
+        gap: 20px;
     }
    
     .LogoContainer{
@@ -252,7 +258,7 @@ a{
         & img{
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     .signUpInfo{
@@ -424,15 +430,15 @@ a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
+        justify-content:center;
         align-items: center;
         /* background-color: red; */
-        gap: 40px;
+        gap:20px;
         /* background-color: greenyellow; */
     }
    
     .LogoContainer{
-        height: 50px;
+        height: 60px;
         width: 100%;
         /* background-color: yellow; */
         display: flex;
@@ -445,7 +451,7 @@ a{
         & img{
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     .signUpInfo{
@@ -616,26 +622,26 @@ a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
+        justify-content:center;
         align-items: center;
         /* background-color: red; */
-        gap: 40px;
+        gap: 20px;
     }
    
     .LogoContainer{
-        height: 50px;
+        height: 60px;
         width: 100%;
         /* background-color: yellow; */
         display: flex;
     }
     .signUpLogo{
         height: 100%;
-        width: 200px;
+        width: 250px;
     
         & img{
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     .signUpInfo{
