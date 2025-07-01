@@ -21,8 +21,8 @@ header{
     /* background-color: red; */
 }
 .headerLogo{
-    height: 70%;
-    width: 230px;
+    height: 60%;
+    width: 150px;
 
     & img{
         height: 100%;
@@ -52,7 +52,14 @@ header{
         transition: all 650ms;
     }
 
-
+.Noquest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height:300px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
     #output{
         height:400px;
         width: 94%;
@@ -156,8 +163,8 @@ header{
             /* background-color: red; */
         }
         .headerLogo{
-            height: 90%;
-            width: 130px;
+            height: 50%;
+            width: 120px;
         
             & img{
                 height: 100%;
@@ -189,6 +196,9 @@ header{
             a{
                 text-decoration: none;
             }
+            .Noquest{
+                font-size: 20px;
+              }
             #output{
                 height:400px;
                 width: 94%;

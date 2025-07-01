@@ -4,6 +4,7 @@ const LoginForm = document.getElementById("LoginForm");
 
 const users = JSON.parse(localStorage.getItem("users") || "[]");
 
+
 LoginForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
@@ -28,9 +29,17 @@ LoginForm.addEventListener("submit", function (e) {
     return alert("Incorrect password");
   }
 
- 
+  const loggedin = JSON.parse(localStorage.getItem("loggedin") || "[]");
+  const isAlreadyLoggedIn = loggedin.some(
+    (user) => user.usersemail === emailValue
+  );
+
   alert("Login successful!");
-  localStorage.setItem("loggedin", JSON.stringify(foundUser));
+  if (!isAlreadyLoggedIn) {
+    loggedin.push(foundUser);
+    localStorage.setItem("loggedin", JSON.stringify(loggedin));
+  }
+  localStorage.setItem("currentUser", JSON.stringify(foundUser));
 
   if (foundUser.usersRole === "Student") {
     setTimeout(() => {

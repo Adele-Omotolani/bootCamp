@@ -207,7 +207,7 @@ a{
     .bodyWrapper{
         height: 100%;
         width: 95%;
-        background-color: green;
+        /* background-color: green; */
         display: flex;
         flex-direction: column;
         /* justify-content: space-between; */

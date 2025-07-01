@@ -21,8 +21,8 @@ header{
     /* background-color: red; */
 }
 .headerLogo{
-    height: 70%;
-    width: 230px;
+    height: 60%;
+    width: 150px;
 
     & img{
         height: 100%;
@@ -94,6 +94,14 @@ header{
     #StudentText::placeholder{
         font-family: "Roboto", sans-serif;
             font-size: 20px;
+    }
+    .NoquestS{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height:100px;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
     }
     #output{
         max-height: 251px;
@@ -169,8 +177,8 @@ header{
             /* background-color: red; */
         }
         .headerLogo{
-            height: 90%;
-            width: 130px;
+            height: 50%;
+            width: 120px;
         /* background-color: yellow; */
             & img{
                 height: 100%;
@@ -241,7 +249,9 @@ header{
                     transition: all 650ms;
                 }
             }
-         
+            .NoquestS{
+              font-size: 20px;
+            }
             .AnswerHolder{
                 height:auto;
                 width: 95%;
